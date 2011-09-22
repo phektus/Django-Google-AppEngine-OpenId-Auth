@@ -1,0 +1,10 @@
+.idea
+*.pyc
+browser-plugin.crx
+server/.gaedata
+server/.gaedata/*
+server/.gaedata/datastore
+*.gaedata
+*.gaedata*
+*.gaedata/*
+server/.gaedata/

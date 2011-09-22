@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Login with your Google Apps ID</h1>
+<form action="{{ action }}" method="POST">
+{% csrf_token %}
+{{ form.as_ul }}
+<input type="submit" value="Submit" />
+
+</form>
+{% endblock %}
